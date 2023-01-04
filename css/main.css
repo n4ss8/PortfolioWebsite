@@ -377,7 +377,7 @@
 .name-tag-project,
 .unplugged-project {
   width: 100%;
-  filter: drop-shadow(1px 2px 6px #f8c6c6);
+  filter: drop-shadow(1px 2px 6px lightpink);
 }
 
 .project-link {
