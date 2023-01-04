@@ -442,7 +442,9 @@
 }
 .hotel-booking-project,
 .guess-the-word-project,
-.sticky-notes-project 
+.sticky-notes-project,
+.name-tag-project,
+.unplugged-project
  {
   width: 100%;
   display: flex;
@@ -454,7 +456,9 @@
 
 .hotel-booking-project,
 .guess-the-word-project,
-.sticky-notes-project {
+.sticky-notes-project,
+.name-tag-project,
+.unplugged-project {
   width: 100%;
   filter: drop-shadow(1px 2px 6px lightgrey);
 }
@@ -782,7 +786,9 @@ footer .social-icons li i {
 
   .hotel-booking-project,
   .guess-the-word-project,
-  .sticky-notes-project {
+  .sticky-notes-project,
+  .name-tag-project,
+  .unplugged-project {
     align-items: center;
   }
 
@@ -1015,7 +1021,9 @@ footer .social-icons li i {
 
       .hotel-booking-project,
       .guess-the-word-project,
-      .sticky-notes-project {
+      .sticky-notes-project,
+      .name-tag-project,
+      .unplugged-project {
         width: 30%;
         display: flex;
         justify-content: center;
