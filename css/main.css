@@ -128,7 +128,7 @@
   
   body {
   font-size: 1em;
-  font-family: 'Arial', sans-serif;
+  font-family: Arial, sans-serif;
   color: #453e4f;
   background-color: white;
  }
@@ -148,7 +148,7 @@
   
   h1 {
   color: #453e4f;
-  font-family: 'Arial' sans-serif;
+  font-family: Arial sans-serif;
   font-size: 1.75rem;
   line-height: 1.5;
   width: 100%
@@ -157,7 +157,7 @@
   
   h2 {
   color: #453e4f;
-  font-family: 'Arial', sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 1.25rem;
   line-height: 1.5;
   width: 100%;
@@ -195,7 +195,7 @@
   h4,
   h5,
   h6 {
-  font-family: 'Arial', sans-serif;
+  font-family: Arial, sans-serif;
   line-height: 1.5;
   width: 100%;
   text-align: center;
