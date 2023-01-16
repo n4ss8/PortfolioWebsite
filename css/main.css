@@ -470,6 +470,10 @@ footer .social-icons li i {
   font-size: 1.875rem;
   color: #152A3E;
 }
+footer .social-icons {
+  width: 5em;
+  justify-content: space-between;
+}
 
 
   /* ==========================================================================
@@ -774,7 +778,7 @@ footer .social-icons li i {
   }
 
   footer .social-icons {
-    width: 12.5rem;
+    width: 3rem;
     justify-content: space-between;
   }
 
