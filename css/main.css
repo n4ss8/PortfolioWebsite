@@ -179,7 +179,6 @@
   .project-link,
   .language-wrapper p,
   .tool-wrapper p {
-  justify-content: center;
   text-transform: uppercase;
   font-size: 1.125rem;
   color: #453e4f;
@@ -198,7 +197,6 @@
   font-family: Arial, sans-serif;
   line-height: 1.5;
   width: 100%;
-  text-align: center;
   }
   
  
@@ -218,6 +216,11 @@
   figure {
   margin: 0;
   }
+
+  address {
+    font-style: normal;
+  }
+  
   
   /* Structural Styles */
   
@@ -233,23 +236,27 @@
   }
   
   .content-wrapper {
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
   width: 85%;
-  }
-  
-  #work {
-  width: 100%;
   }
   
   #work p,
   #about p {
   width: 100%;
   text-align: left;
-  justify-content: center;
   }
   
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+  }
+  
+  p {
+    margin: 0;
+  }
 
   header {
   padding-top: 30px;
@@ -270,14 +277,15 @@
   padding-bottom: 80px;
   }
   
-  
-  
   #about {
   padding-top: 60px;
   padding-bottom: 60px;
-  
   }
-  
+
+  footer {
+    padding: 80px 0;
+  }
+
   h2 {
   margin-top: 60px;
   }
@@ -336,7 +344,6 @@
   }
   
 /* -------------------- Mobile Styles - Homepage -------------------- */
-/* Port */
 #work,
 #skills {
   width: 100%;
@@ -363,7 +370,6 @@
   flex-direction: column;
   align-items: center;
 }
-
 
 .hotel-booking-project,
 .guess-the-word-project,
@@ -401,22 +407,23 @@
   color: white;
   padding: 15px 0;
   margin: 20px 0;
-  text-align: center;
 }
 
 .tool {
   width: 100%;
 }
 /* about */
-.about-text{
-  font-size: 16px;
-  
+
+#about {
+  width: 100%;
 }
+
 #about h3,
 #about h4,
 #about p {
   color: #4a4f3e;
 }
+
   /* -------------------- Base Foooter Styles -------------------- */
 footer {
   background-color: #ffe8d6;
@@ -429,8 +436,21 @@ footer .contact-wrapper {
   align-items: flex-start;
 }
 
-footer .contact-info a {
-  color: #152A3E;
+footer .contact-info {
+  width: 60%;
+}
+
+footer h4 {
+  width: 100%;
+}
+
+footer .follow-section {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+footer ul {
+  width: 100%;
 }
 
 footer .social-icons {
@@ -547,7 +567,7 @@ footer .social-icons li i {
 
   /* General styles */
   .content-wrapper {
-    max-width: 100%;
+    max-width: 640px;
   }
 
   /* font styles */
@@ -592,12 +612,16 @@ footer .social-icons li i {
     padding-bottom: 80px;
   }
 
+  footer {
+    padding: 140px 0;
+  }
+
   #about {
     padding: 80px 0;
   }
 
   footer {
-    padding-bottom: 10px;
+    padding-bottom: 80px;
   }
 
   h2 {
@@ -609,12 +633,11 @@ footer .social-icons li i {
   }
 
   .project-description {
-    line-height: 1.25em;
-    align-items: center;
+   margin: 0 0 30px 0;
   }
 
   .project-link {
-    margin: 20px 0 60px 0;
+    margin: 40px 0 60px 0;
   }
 
   #skills {
@@ -642,12 +665,14 @@ footer .social-icons li i {
   }
 
   .contact-info {
-    margin: 55px 0;
+    margin: 80px 0;
   }
 
   .contact-title {
     margin: 0 0 30px 0;
   }
+
+  /* header */
 
   header .content-wrapper {
     display: flex;
@@ -688,6 +713,7 @@ footer .social-icons li i {
   .sticky-notes-project,
   .name-tag-project,
   .unplugged-project {
+    width: 45%;
     align-items: center;
   }
 
@@ -706,13 +732,13 @@ footer .social-icons li i {
 
   .skill,
   .tool {
-    /*  width: auto; */
     width: 45%;
+
   }
 
   .language-wrapper p,
-  .tool-wrapper p {
-    padding: 15px 0;
+  .tools-wrapper p {
+   padding: 15px 0;
   }
 
   /* about */
@@ -733,42 +759,46 @@ footer .social-icons li i {
   /* Footer */
   .contact-wrapper {
     display: flex;
+    justify-content: space-between;
   }
 
   footer .contact-info {
-    display: flex;
-    justify-content: space-evenly;
-    flex-flow: row wrap;
+    width: 33%;
   }
-
-  footer .social {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-  }
-
   footer ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-  
+  width: 100%;
   }
 
   footer .social-icons {
-    width: 10rem;
+    width: 12.5rem;
     justify-content: space-between;
   }
 
   footer .social-icons li i {
     font-size: 2rem;
   }
+
+  @media only screen and (min-width:1024px) {
+
+    /* added for landscape tablets and iPad Pro */
+    .content-wrapper {
+      max-width: 900px;
+    }
+  
+    .about-info h3 {
+      font-size: 3.5rem;
+    }
+  }
   
   @media only screen and (min-width:1200px)
    {
       /*Desktop styles here*/
       .content-wrapper {
-        max-width: 1200px;
+        max-width: 1450px;
       }
     
       /* font styles */
@@ -803,7 +833,6 @@ footer .social-icons li i {
     
       p {
         font-size: 1.25rem;
-        margin-top: 70px;
       }
     
       .project-link,
@@ -836,7 +865,7 @@ footer .social-icons li i {
       }
     
       footer {
-        padding: 30px 0 30px 0;
+        padding: 140px 0 140px 0;
       }
     
       h2 {
@@ -856,7 +885,7 @@ footer .social-icons li i {
       }
     
       #skills {
-        padding-top: 60px;
+        padding-top: 120px;
       }
     
       #skills .content-wrapper {
@@ -908,6 +937,13 @@ footer .social-icons li i {
         padding: 10px 10px;
         border-radius: 30px;
       }
+      .header-title {
+        max-width: 95%;
+      }
+    
+      .header-title h2 {
+        max-width: 70%;
+      }
     
       /* portfolio */
 
@@ -917,28 +953,19 @@ footer .social-icons li i {
       .name-tag-project,
       .unplugged-project {
         width: 30%;
-        display: flex;
-        justify-content: center;
-        align-items: flex-start;
-        flex-flow: row wrap;
       }
     
-      .sticky-notes-project a.project-link {
-        margin-top: 70px;
-      }
-
-    
+     
       /* skills */
       .skill,
       .tool{
         width: 30%;
-
       }
     
       /* about */
       .about-content-wrapper {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
       }
     
       #about figure {
@@ -951,58 +978,18 @@ footer .social-icons li i {
       }
     
       /* footer */
-      footer #contact {
-        display: flex;
-        flex-flow: column wrap;
-      }
     
       footer .content-wrapper {
-        flex-flow: row;
         max-width: 70%;
       }
     
       footer .social-icons {
-        width: 12.5em;
+        width: 6em;
         justify-content: space-between;
       }
-    
-      footer .contact-info {
-        margin: 0;
-      }
-    
-      footer p.copyright {
-        margin-top: 60px;
-      }
-    }
+   }
+  
 
-@media only screen and (min-width: 1440px) {
-
-  /* about */
-  .about-content-wrapper {
-    display: flex;
-    justify-content: space-evenly;
-  }
-
-  /* contact */
-  footer #contact {
-    display: flex;
-    flex-flow: column wrap;
-  }
-
-  /* footer */
-  footer .content-wrapper {
-    flex-flow: row;
-    max-width: 90%;
-  }
-
-  footer .contact-info {
-    margin: 0;
-  }
-
-  footer p.copyright {
-    margin-top: 60px;
-  }
-}
     @media only screen and (min-width: 35em) {
       /* Style adjustments for viewports that meet the condition */
     }
