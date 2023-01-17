@@ -89,7 +89,8 @@
   
 
   header {
-  background-color: #ffe8d6;
+  background-color: #EEE4f0;
+  border: dotted #351D77;
     }
     
     header nav ul li {
@@ -100,10 +101,10 @@
     }
   
     nav #contact-link {
-    background-color: #453e4f;
+    background-color: #351D77; 
     padding: 10px 10px;
     border-radius: 30px;
-    color: #f19494;
+    color: #F4BEDC;
    }
     
     nav ul {
@@ -128,7 +129,7 @@
   
   body {
   font-size: 1em;
-  font-family: Arial, sans-serif;
+  font-family: Nunito Sans;
   color: #453e4f;
   background-color: white;
  }
@@ -148,7 +149,7 @@
   
   h1 {
   color: #453e4f;
-  font-family: Arial sans-serif;
+  font-family: Alata;
   font-size: 1.75rem;
   line-height: 1.5;
   width: 100%
@@ -157,7 +158,7 @@
   
   h2 {
   color: #453e4f;
-  font-family: Arial, sans-serif;
+  font-family: Alata;
   font-size: 1.25rem;
   line-height: 1.5;
   width: 100%;
@@ -181,7 +182,7 @@
   .tool-wrapper p {
   text-transform: uppercase;
   font-size: 1.125rem;
-  color: #453e4f;
+  color: #F4BEDC;
   }
   
   .about-info h4,
@@ -194,7 +195,7 @@
   h4,
   h5,
   h6 {
-  font-family: Arial, sans-serif;
+  font-family: Alata;
   line-height: 1.5;
   width: 100%;
   }
@@ -267,7 +268,6 @@
   margin-bottom: 60px;
   }
   
-
   #work {
   padding-top: 60px;
   }
@@ -284,6 +284,7 @@
 
   footer {
     padding: 80px 0;
+    border: dotted;
   }
 
   h2 {
@@ -377,23 +378,23 @@
 .name-tag-project,
 .unplugged-project {
   width: 100%;
-  filter: drop-shadow(1px 2px 6px lightpink);
+  filter: drop-shadow(1px 2px 6px #F4BEDC);
 }
 
 .project-link {
-  background-color: #152A3E;
+  background-color: #351D77;
   padding: .75rem 3.75rem;
   border-radius: 30px;
-  color: #f19494;
+  color: #F4BEDC;
 }
 
 .project-link:hover {
-  background-color: #f8c6c6;
-  color: #152A3E;
+  background-color: #F4BEDC;
+  color: #351D77;
 }
 
 #skills {
-  background-color: #f19494;
+  background-color: #EEE4f0;
 }
 
 #skills h4 {
@@ -403,7 +404,7 @@
 
 .language-wrapper p,
 .tool-wrapper p {
-  background-color: #453e4f;
+  background-color: #351D77;
   color: white;
   padding: 15px 0;
   margin: 20px 0;
@@ -426,7 +427,7 @@
 
   /* -------------------- Base Foooter Styles -------------------- */
 footer {
-  background-color: #ffe8d6;
+  background-color: #EEE4f0;
 }
 
 footer .contact-wrapper {
@@ -936,7 +937,7 @@ footer .social-icons {
     
       nav ul li a:hover,
       nav #contact-link:hover {
-        background-color: #f19494;
+        background-color: #F4BEDC;
         color: #453E4F;
         padding: 10px 10px;
         border-radius: 30px;
