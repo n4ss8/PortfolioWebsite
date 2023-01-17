@@ -471,7 +471,7 @@ footer .social-icons li i {
   color: #152A3E;
 }
 footer .social-icons {
-  width: 5em;
+  width: 6em;
   justify-content: space-between;
 }
 
@@ -778,7 +778,7 @@ footer .social-icons {
   }
 
   footer .social-icons {
-    width: 3rem;
+    width: 6.5rem;
     justify-content: space-between;
   }
 
