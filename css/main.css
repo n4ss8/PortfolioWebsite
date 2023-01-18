@@ -428,6 +428,7 @@
   /* -------------------- Base Foooter Styles -------------------- */
 footer {
   background-color: #EEE4f0;
+  color: #351D77;
 }
 
 footer .contact-wrapper {
@@ -469,7 +470,6 @@ footer .social-icons li {
 
 footer .social-icons li i {
   font-size: 1.875rem;
-  color: #152A3E;
 }
 footer .social-icons {
   width: 6em;
